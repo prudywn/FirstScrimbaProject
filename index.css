@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&family=Sedan:ital@0;1&display=swap');
+
+body {
+    background-image: radial-gradient( whitesmoke, grey);
+   
+    font-family:Platypi, Sedan ;
+    font-weight: bold;
+    text-align: center;
+}
+
+.body{
+    max-width:80% ;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 2px solid black;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+button:hover{
+    transform: scale(1.2);
+   transition:0.2s all;
+}
+
+#increment-btn {
+    background: blueviolet;
+}
+
+#save-btn {
+    background: burlywood;
+    font-size: large; 
+}
+
+
