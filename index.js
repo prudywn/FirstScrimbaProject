@@ -10,7 +10,7 @@ function increment() {
    count += 1
   countEl.textContent=count
 }
-increment()
+
 
 function save() {
     // 2. Create a variable that contains both the count and the dash separator, i.e. "12 - "
