@@ -2,7 +2,7 @@
 
 body {
     background-image: radial-gradient( whitesmoke, grey);
-   
+    background-image: url(movie\ thatre.jpg);
     font-family:Platypi, Sedan ;
     font-weight: bold;
     text-align: center;
