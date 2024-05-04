@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&family=Sedan:ital@0;1&display=swap');
 
 body {
-    background-image: radial-gradient( whitesmoke, grey);
-   
+    /* background-image: radial-gradient( whitesmoke, grey) */
+    background-image: url(movie\ thetre.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family:Platypi, Sedan ;
     font-weight: bold;
     text-align: center;
@@ -11,6 +13,9 @@ body {
 .body{
     max-width:80% ;
     margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(197, 194, 191,0.5) ;
 }
 
 h1 {
